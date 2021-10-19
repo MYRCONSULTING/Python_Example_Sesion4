@@ -2,7 +2,7 @@ from src.empleado.Employee import Employee
 from src.empleado.ExternalEmployee import ExternalEmployee
 from src.empleado.InternalEmployee import InternalEmployee
 
-normal_employee = Employee('Pedro', 'Arias')
+normal_employee = Employee('Pedrox', 'Arias')
 external_employee = ExternalEmployee('Luis', 'Aguirre')
 internal_employee = InternalEmployee('Mary', 'Musk')
 
