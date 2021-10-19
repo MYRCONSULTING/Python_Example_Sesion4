@@ -12,6 +12,6 @@ addons:
     organization: "myrconsulting"
 
 scripts:
-  - pytest
+  - pytest -v --cov --cov-report = xml --cov-report=html
   - behave ./test_aceptance/
   - sonar-scanner
