@@ -14,3 +14,4 @@ addons:
 scripts:
   - pytest
   - behave ./test_aceptance/
+  - sonar-scanner
